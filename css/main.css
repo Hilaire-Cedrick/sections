@@ -42,8 +42,7 @@ section div p {
 
 .btn {
   display: block;
-  margin-top: 1.5rem;
-  padding: .75em 2em;
+  padding: 1em 2em;
   color: #333;
   border: 2px solid #666;
   border-radius: .5em;
