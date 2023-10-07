@@ -20,7 +20,6 @@ section {
 
 section div {
   display: inline-block;
-  max-width: 25em;
   vertical-align: middle;
   margin: 1.5rem;
 }
@@ -28,15 +27,18 @@ section div {
 img {
   display: block;
   width: 100%;
+  max-width: 20em;
 }
 
 section h2 {
+  max-width: 25em;
   font-family: Lato, bold;
   font-size: 1.5rem;
   text-align: left;
 }
 
 section div p {
+  max-width: 25em;
   text-align: left;
 }
 
