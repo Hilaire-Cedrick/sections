@@ -31,7 +31,8 @@ img {
 }
 
 section h2 {
-  font-family: Lato;
+  font-family: Lato, bold;
+  font-size: 1.5rem;
   text-align: left;
 }
 
