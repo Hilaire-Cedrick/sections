@@ -14,32 +14,37 @@ body {
 }
 
 section {
- background-color: #eee9de;
- text-align: center;
+  background-color: #eee9de;
+  text-align: center;
 }
 
 section div {
   display: inline-block;
   max-width: 25em;
-  margin: 1.5rem;
   vertical-align: middle;
+  margin: 1.5rem;
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
-  max-width: 25em;
-  margin: 1.5rem;
-  vertical-align: middle;
 }
 
 section h2 {
   font-family: Lato;
+  text-align: left;
+}
+
+section div p {
+  text-align: left;
 }
 
 .btn {
-  display: inline-block;
+  display: block;
+  margin: 1.5rem 0 0 0;
+  padding: 1em 2em;
   color: #333;
+  border: 2px solid #666;
+  border-radius: .5em;
   text-align: left;
-  padding: .4em .75em .5em;
 }
