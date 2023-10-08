@@ -19,7 +19,6 @@ body {
   text-align: center;
 }
 
-
 div {
   display: inline-block;
   max-width: 25em;
@@ -52,7 +51,15 @@ p {
   text-align: center;
 }
 
+.btn:hover {
+  background-color: #666;
+}
+
 a {
   text-decoration: none;
-  color: #666;
+  color: #000;
+}
+
+.btn:hover a {
+  color: #fff;
 }
