@@ -27,11 +27,12 @@ section div {
 img {
   display: block;
   width: 100%;
-  max-width: 20em;
+  max-width: 25em;
 }
 
 section h2 {
   max-width: 25em;
+  margin: 0 0 1.5rem;
   font-family: Lato, bold;
   font-size: 1.5rem;
   text-align: left;
@@ -39,6 +40,7 @@ section h2 {
 
 section div p {
   max-width: 25em;
+  margin: 0 0 1.5rem;
   font-family: Lato, regular;
   color: #333;
   text-align: left;
@@ -46,8 +48,10 @@ section div p {
 
 .btn {
   display: block;
-  font-family: Lato, regular;
-  padding: 1em 2em;
+  padding: 1em;
+  background-color: inherit;
   border: 2px solid #666;
   border-radius: .5em;
+  font-family: Lato, regular;
+  font-size: 1.125rem;
 }
