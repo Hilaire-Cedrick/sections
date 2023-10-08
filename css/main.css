@@ -11,10 +11,10 @@ html {
 
 body {
   margin: 0;
-  background-color: #eee9de;
 }
 
 section {
+  background-color: #eee9de;
   text-align: center;
 }
 
@@ -39,13 +39,15 @@ section h2 {
 
 section div p {
   max-width: 25em;
+  font-family: Lato, regular;
+  color: #333;
   text-align: left;
 }
 
 .btn {
   display: block;
+  font-family: Lato, regular;
   padding: 1em 2em;
-  color: #333;
   border: 2px solid #666;
   border-radius: .5em;
 }
