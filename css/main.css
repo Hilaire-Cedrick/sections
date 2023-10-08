@@ -19,9 +19,6 @@ body {
   text-align: center;
 }
 
-section {
-  text-align: center;
-}
 
 div {
   display: inline-block;
@@ -40,9 +37,7 @@ img {
 
 h2 {
   margin: 1em .25em .75rem;
-  font-family: Lato, bold;
-  font-size: 1.5rem;
-  vertical-align: middle;
+  font-weight: bold;
 }
 
 p {
